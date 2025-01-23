@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test3-jan23-argo-model-config
+data:
+  MODEL_ENDPOINT: "http://test3-jan23-argo-model-server:8001"
